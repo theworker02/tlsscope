@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="logo.png" alt="tlsscope" width="160" height="160" />
 </p>
 
@@ -8,7 +8,7 @@ Inspect a live TLS handshake from the command line. Print the certificate chain,
 
 [![CI](https://github.com/theworker02/tlsscope/actions/workflows/ci.yml/badge.svg)](https://github.com/theworker02/tlsscope/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/@magnexis/tlsscope.svg)](https://www.npmjs.com/package/@magnexis/tlsscope)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![license](https://img.shields.io/badge/license-Proprietary%20(source--available)-blue.svg)](LICENSE)
 
 ## Install
 
@@ -21,7 +21,7 @@ Requires Node.js 20+.
 
 ## Why
 
-`openssl s_client` is powerful and noisy. CI jobs usually want: is this host still on TLS 1.2+, is the leaf trusted, and how many days until expiry — as JSON (or SARIF for GitHub code scanning).
+`openssl s_client` is powerful and noisy. CI jobs usually want: is this host still on TLS 1.2+, is the leaf trusted, and how many days until expiry â€” as JSON (or SARIF for GitHub code scanning).
 
 tlsscope does that handshake with the platform TLS stack and a small policy engine.
 
@@ -85,4 +85,5 @@ npm run build
 
 ## License
 
-MIT. Sponsor via [GitHub](https://github.com/sponsors/theworker02) or [thanks.dev](https://thanks.dev/u/gh/theworker02).
+**Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
+

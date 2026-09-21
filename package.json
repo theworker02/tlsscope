@@ -1,46 +1,63 @@
-{
-  "name": "@magnexis/tlsscope",
-  "version": "1.0.1",
-  "description": "Inspect TLS certificates and handshake policy from the command line. JSON and SARIF output for CI.",
-  "license": "MIT",
-  "author": "theworker02",
-  "type": "module",
-  "bin": {
-    "tlsscope": "bin/tlsscope.js"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
-    }
-  },
-  "files": ["bin", "dist", "logo.png", "LICENSE", "README.md"],
-  "engines": { "node": ">=20" },
-  "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "lint": "tsc --noEmit -p tsconfig.json",
-    "prepublishOnly": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theworker02/tlsscope.git"
-  },
-  "bugs": { "url": "https://github.com/theworker02/tlsscope/issues" },
-  "homepage": "https://github.com/theworker02/tlsscope#readme",
-  "keywords": ["tls", "certificate", "https", "cli", "security", "sarif"],
-  "dependencies": {
-    "commander": "^12.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.2",
-    "typescript": "^5.7.2",
-    "vitest": "^2.1.8"
-  }
+﻿{
+    "name":  "@magnexis/tlsscope",
+    "version":  "1.0.1",
+    "description":  "Inspect TLS certificates and handshake policy from the command line. JSON and SARIF output for CI.",
+    "license":  "SEE LICENSE IN LICENSE",
+    "author":  "theworker02",
+    "type":  "module",
+    "bin":  {
+                "tlsscope":  "bin/tlsscope.js"
+            },
+    "publishConfig":  {
+                          "access":  "public"
+                      },
+    "main":  "./dist/index.js",
+    "types":  "./dist/index.d.ts",
+    "exports":  {
+                    ".":  {
+                              "types":  "./dist/index.d.ts",
+                              "import":  "./dist/index.js"
+                          }
+                },
+    "files":  [
+                  "bin",
+                  "dist",
+                  "logo.png",
+                  "LICENSE",
+                  "README.md"
+              ],
+    "engines":  {
+                    "node":  "\u003e=20"
+                },
+    "scripts":  {
+                    "build":  "tsc -p tsconfig.build.json",
+                    "test":  "vitest run",
+                    "test:watch":  "vitest",
+                    "lint":  "tsc --noEmit -p tsconfig.json",
+                    "prepublishOnly":  "npm run build"
+                },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/theworker02/tlsscope.git"
+                   },
+    "bugs":  {
+                 "url":  "https://github.com/theworker02/tlsscope/issues"
+             },
+    "homepage":  "https://github.com/theworker02/tlsscope#readme",
+    "keywords":  [
+                     "tls",
+                     "certificate",
+                     "https",
+                     "cli",
+                     "security",
+                     "sarif"
+                 ],
+    "dependencies":  {
+                         "commander":  "^12.1.0"
+                     },
+    "devDependencies":  {
+                            "@types/node":  "^22.10.2",
+                            "typescript":  "^5.7.2",
+                            "vitest":  "^2.1.8"
+                        }
 }
