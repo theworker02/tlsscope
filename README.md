@@ -21,7 +21,7 @@ Requires Node.js 20+.
 
 ## Why
 
-`openssl s_client` is powerful and noisy. CI jobs usually want: is this host still on TLS 1.2+, is the leaf trusted, and how many days until expiry â€” as JSON (or SARIF for GitHub code scanning).
+`openssl s_client` is powerful and noisy. CI jobs usually want: is this host still on TLS 1.2+, is the leaf trusted, and how many days until expiry Ã¢â‚¬â€ as JSON (or SARIF for GitHub code scanning).
 
 tlsscope does that handshake with the platform TLS stack and a small policy engine.
 
@@ -85,7 +85,7 @@ npm run build
 
 ## License
 
-**Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
+**Source-available proprietary** â€” evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
 
 
 ---
@@ -93,3 +93,7 @@ npm run build
 ## License & acquisition
 
 This project is **proprietary**. Production use, redistribution, and commercial deployment require a written commercial license or completed acquisition. See [LICENSE](./LICENSE) and [ACQUISITION.md](./ACQUISITION.md). Contact [@theworker02](https://github.com/theworker02).
+
+## Status
+
+tlsscope is actively packaged for commercial licensing and acquisition diligence. See [ACQUISITION.md](./ACQUISITION.md) and [docs/acquisition/](./docs/acquisition/).
