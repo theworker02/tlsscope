@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "@magnexis/tlsscope",
     "version":  "1.0.1",
     "description":  "Inspect TLS certificates and handshake policy from the command line. JSON and SARIF output for CI.",
