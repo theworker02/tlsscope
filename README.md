@@ -97,3 +97,16 @@ This project is **proprietary**. Production use, redistribution, and commercial 
 ## Status
 
 tlsscope is actively packaged for commercial licensing and acquisition diligence. See [ACQUISITION.md](./ACQUISITION.md) and [docs/acquisition/](./docs/acquisition/).
+
+## Badges & release notes
+
+| Badge | Meaning |
+| --- | --- |
+| docs live | Public documentation / Pages surface for `tlsscope` |
+| release v1.0.0 | Stable tagged release with narrative notes |
+| license | See repository `LICENSE` for terms |
+| status maintained | Actively kept in the @theworker02 portfolio |
+| version 1.0.0 | Documentation and brand completeness milestone |
+| pages enabled | Site intended at `https://theworker02.github.io/tlsscope/` |
+
+Detailed narrative for the stable line lives in [CHANGELOG.md](./CHANGELOG.md) and the [v1.0.0 GitHub Release](https://github.com/theworker02/tlsscope/releases/tag/v1.0.0).
